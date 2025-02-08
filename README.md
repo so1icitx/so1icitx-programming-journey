@@ -20,9 +20,6 @@ Just some stuff I've made while learning (I'm also taking a course in Cyber Secu
 - [About](#about)
 - [Projects](#projects)
 - [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -58,9 +55,9 @@ This repository leverages several programming languages and tools:
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 Contact
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/so1icitx)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/trxycs)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)
 [![Proton Mail](https://img.shields.io/badge/Email_Me-8B89CC?logo=protonmail&logoColor=white)](mailto:tojitiktok@proton.me)
 
