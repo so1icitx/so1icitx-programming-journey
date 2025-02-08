@@ -1,0 +1,7 @@
+import random
+names_string = input()
+names = names_string.split(", ")
+
+sigma = random.randint(0, len(names) - 1)
+
+print (f"{names[sigma]} is going to buy the meal today!")
