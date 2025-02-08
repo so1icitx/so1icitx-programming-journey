@@ -58,11 +58,9 @@ This repository leverages several programming languages and tools:
 
 ---
 
-## Getting Started
+## 📬 Connect & Collaborate
 
-To get a local copy of this repository and explore the projects:
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/so1icitx)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![Proton Mail](https://img.shields.io/badge/Email_Me-8B89CC?logo=protonmail&logoColor=white)](mailto:tojitiktok@proton.me)
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/so1icitx-journey.git
