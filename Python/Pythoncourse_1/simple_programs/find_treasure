@@ -1,0 +1,23 @@
+line1 = ["⬜️", "⬜️", "⬜️"]
+line2 = ["⬜️", "⬜️", "⬜️"]
+line3 = ["⬜️", "⬜️", "⬜️"]
+map = [line1, line2, line3]
+
+print("Hiding your treasure! X marks the spot.")
+position = input("Enter the position (e.g., 'A1', 'B3'): ")
+
+row_letter = position[0].upper()
+row_index = None
+if row_letter == "A":
+    row_index = 0
+elif row_letter == "B":
+    row_index = 1
+else:
+    row_index = 2
+
+col_index = int(position[1]) - 1
+
+map[col_index][row_index] = "X"
+
+print("Hiding your treasure! X marks the spot.")
+print(f"{line1}\n{line2}\n{line3}")
