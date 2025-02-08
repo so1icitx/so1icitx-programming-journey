@@ -1,0 +1,24 @@
+print("Enter your height")
+height = int(input())
+print("Enter your age")
+age = int(input())
+dinero = 0
+if height > 120:
+    print("You can ride")
+    if age <= 12:
+        dinero = 5
+    elif age <= 18:
+        dinero = 7
+    else:
+        dinero = 12
+
+    print("Do you want a photo? , y or n")
+    photo = str(input())
+    if photo == "y":
+        dinero += 3
+        print(f"You must pay ${dinero}")
+    else:
+        dinero = dinero
+        print(f"You must pay ${dinero}")
+else:
+    print("You cant ride :(")
