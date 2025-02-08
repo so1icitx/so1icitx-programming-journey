@@ -1,0 +1,26 @@
+print("Welcome to treasure island.\nYour mission is to find the treasure")
+path = input("Choose your path (left/l or right/r): ")
+
+if path == "left" or path == "l":
+    print("You have arrived at a river, but you remember seeing a black cat. What do you do? Swim or wait?")
+    river = input().lower()
+
+    if river == "swim":
+        print("As a sigma, you swim across the river and then see, in the corner of your eye, a glimpse of something that seems to be a house.")
+        print("You enter and then you're faced with 3 doors: a red one, a blue one, and a yellow one. Which one do you pick?")
+        door = input().lower()
+
+        if door == "yellow":
+            print("You open the door shivering and you see an Asian baddie undressing on a king-sized bed. You do your thing.")
+            print("Well done, soldier! You have successfully gotten the treasure.")
+        elif door == "blue":
+            print("You open the door with confidence because your childhood crush's favorite color was blue. As you enter, you see Mr. Beast. You sigh in relief, but then you get brutally shot by Chris(not with a gun).")
+        elif door == "red":
+            print("Boooo! You picked red, the most common favorite color. As you open the door, you are greeted with your demise(indian food).")
+        else:
+            print("Invalid choice. You stare at the doors unsure, and the house falls on you.")
+    else:
+        print("You wait like a coward and then get eaten by a pack of wolves.")
+
+else:
+    print("As you walk down the right path, you see a girl bathing near a waterfall. Because you're a weird person, you went to take a peek and got brutally beaten up by her gorlock BFF.")
