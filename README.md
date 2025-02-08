@@ -1,11 +1,17 @@
 # so1icitx's Journey
 
+![Open Source Enthusiast](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen)
+![Cyber Security](https://img.shields.io/badge/Specializing-In%20Cyber%20Security-blue)
+[![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff)](#)
+[![Proton Mail](https://img.shields.io/badge/Contact-Proton%20Mail-8B89CC?logo=protonmail&logoColor=white)](mailto:yourname@proton.me)
+
 Just some stuff I've made while learning (I'm also taking a course in Cyber Security).
 
-![License](https://img.shields.io/badge/License-MIT-green)
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=fff)](#)
+
+
 [![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=white)](#)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#python-projects)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
