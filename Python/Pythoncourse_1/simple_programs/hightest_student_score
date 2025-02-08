@@ -1,0 +1,10 @@
+student_scores = input().split()
+
+place_holder = 0
+
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+  if place_holder < student_scores[n]:
+      place_holder = student_scores[n]
+
+print(f"The highest score in the class is {place_holder}")
