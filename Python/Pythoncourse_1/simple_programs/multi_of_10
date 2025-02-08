@@ -1,0 +1,11 @@
+number = int(input())
+cycle = 0
+def multi():
+    global cycle
+
+
+    while cycle != 10:
+            cycle += 1
+            print(f"{number} time {cycle} = {number * cycle}")
+
+multi()
