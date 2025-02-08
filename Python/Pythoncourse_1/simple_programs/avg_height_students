@@ -1,0 +1,16 @@
+student_heights = input().split()
+total_height = 0
+number_student = 0
+average = 0
+
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+  total_height += student_heights[n]
+  number_student += 1
+
+
+average = total_height // number_student
+
+print(f"The combined height of all the students is {total_height}")
+print(f"The number of students are {number_student}")
+print(f"The average height is {average}")
