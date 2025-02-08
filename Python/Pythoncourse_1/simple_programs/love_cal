@@ -1,0 +1,28 @@
+print("Enter the first name")
+name1 = input()
+print("Enter the second name")
+name2 = input()
+together = name1 + name2
+together = together.lower()
+print(together)
+
+t = together.count("t")
+r = together.count("r")
+u = together.count("u")
+e = together.count("e")
+first = t + r + u + e
+l = together.count("l")
+o = together.count("o")
+v = together.count("v")
+e = together.count("e")
+second = l + o + v + e
+print(f"Your Love Score is: {str(first) + str(second)}")
+score = str(first) + str(second)
+
+
+if (int(score) < 10) or (int(score) > 90):
+    print(f"I wish I was like you two lovebirds! Your love score is {score}")
+elif(int(score) >= 40) and (int(score) <= 50):
+    print(f"HMMMMMM you two are OK, your love score is {score}")
+else:
+    print(f"Maybe go find another partner, this one isn't the one for you. Your score is incompatible: {score}")
