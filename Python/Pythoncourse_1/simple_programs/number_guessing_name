@@ -1,0 +1,13 @@
+import random
+
+ai = random.randint(1, 10)
+print("Enter your guess (1-10)")
+guess = int(input())
+while guess != ai:
+    if ai > guess:
+        print("Too low!")
+    else:
+        print("Too high!")
+    guess = int(input())
+if guess == ai:
+    print(f"Well done you got it the number was {ai}")
