@@ -1,0 +1,64 @@
+import random
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+#ai logic
+
+ai= random.randint(0,2)
+ai_choice = None
+if ai == 0:
+    ai_choice = rock
+elif ai == 1:
+    ai_choice = paper
+else:
+    ai_choice = scissors
+
+
+
+
+#user logic
+
+user_choice = int(input("Pick rock(0), paper(1) or scissors(2)"))
+user_object = None
+if user_choice == 0:
+    user_object = rock
+elif user_choice == 1:
+    user_object = paper
+else:
+    user_object = scissors
+
+print(f"\nYour choice:\n{user_object}")
+print(f"AI's choice:\n{ai_choice}")
+
+
+
+
+#win logic
+if user_object == ai_choice:
+    print("Its a draw")
+elif (user_choice == 0 and ai == 2) or (user_choice == 1 and ai == 0) or (user_choice == 2 and ai == 1):
+    print("You win!")
+else:
+    print("You lose :(")
