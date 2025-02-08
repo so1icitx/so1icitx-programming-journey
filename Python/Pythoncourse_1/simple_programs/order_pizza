@@ -1,0 +1,29 @@
+print("Thank you for choosing Atila's Pizza place!\nWhat Size Pizza Would you like?(Small or Medium or Large)")
+size = input()
+print("Would you like pepperoni? (Y or N)")
+add_pepperoni = input()
+print("Would you like extra cheese? (Y or N)")
+extra_cheese = input()
+price = 0
+
+if size == "s" or size == "S" or size == "small" or size == "Small":
+    price = 15
+    if add_pepperoni == "y" or add_pepperoni == "Y" or add_pepperoni == "yes" or add_pepperoni == "Yes":
+        price += 2
+elif size == "m" or size == "M" or size == "medium" or size == "Medium":
+    price = 20
+    if add_pepperoni == "y" or add_pepperoni == "Y" or add_pepperoni == "yes" or add_pepperoni == "Yes":
+        price += 3
+elif size == "l" or size == "L" or size == "large" or size == "Large":
+    price = 25
+    if add_pepperoni == "y" or add_pepperoni == "Y" or add_pepperoni == "yes" or add_pepperoni == "Yes":
+        price += 3
+else:
+    print("Invalid size please contact us again")
+
+if extra_cheese == "y" or extra_cheese == "Y" or extra_cheese == "yes" or extra_cheese == "Yes":
+    price += 1
+else:
+    price = price
+
+print(f"Thank you for ordering with us\n Your total bill is ${price}")
