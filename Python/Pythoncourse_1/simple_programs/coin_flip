@@ -1,0 +1,10 @@
+import random
+
+random_integer = random.randint(0, 1)
+coin = " "
+if random_integer == 0:
+    coin = "Heads"
+else:
+    coin = "Tails"
+
+print(coin)
