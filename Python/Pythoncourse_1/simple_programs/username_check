@@ -1,0 +1,11 @@
+username = input("Enter your username: ")
+if len(username) < 13:
+    if username.find(" ") == -1:
+        if not username.isdigit():
+            print(f"Welcome {username}, your username is valid")
+        else:
+            print(f"A username must not contain digits!")
+    else:
+        print(f"A username must not contain spaces!")
+else:
+    print(f"A username must not be longer than 12 characters!")
