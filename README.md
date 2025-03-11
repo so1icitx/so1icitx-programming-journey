@@ -10,7 +10,7 @@ Just some stuff I've made while learning .
 
 ## 📬 Contact
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/trxycs)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/yourprofile)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/atila-tair)
 [![Proton Mail](https://img.shields.io/badge/Email_Me-8B89CC?logo=protonmail&logoColor=white)](mailto:tojitiktok@proton.me)
 
