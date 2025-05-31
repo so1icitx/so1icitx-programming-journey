@@ -10,10 +10,10 @@ class Character:
         if self.health <= 0 or target.health <= 0:
             return
         else:
-            if 'sword' in self.inventory:
-                self.strength += 10
-            print(f'{self.name} attacked the {target.name} dealing {self.strength} dmg')
-            target.take_damage(self.strength, self)
+
+            counte = self.inventory.count('sword')
+            print(f'{self.name} attacked the {target.name} dealing {self.strength + 5 * counte} dmg')
+            target.take_damage(self.strength + 5 * counte, self)
 
     def take_damage(self, amount):
         if self.health - amount > 0:
@@ -70,11 +70,7 @@ class Enemy(Character):
             if loote <= 3:
                 hero.inventory.append('health potion')
             elif loote >= 7:
-                if 'sword' not in hero.inventory:
-                    hero.inventory.append({'sword':1})
-                else:
-                    hero.inventory.append('sword' += 2)
-
+                hero.inventory.append('sword')
 
 
 
